@@ -28,8 +28,8 @@ git clone https://github.com/ich-bin-sudip/email-sms_spam_detection.git
 After training and evaluating the model, you can deploy it for real-time classification. Use the provided pickled files (vectorizer.pkl and model.pkl) to vectorize incoming text data and make predictions using the trained model. I have deploy the model on render using streamlit app . 
 
 ## Screenshots
-![Spam Screenshot](screenshots/spam.png)
-![Ham Screenshot](screenshots/ham.png)
+![Spam Screenshot](spam.png)
+![Ham Screenshot](ham.png)
 
 
 ## Conclusion
