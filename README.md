@@ -27,7 +27,7 @@ git clone https://github.com/ich-bin-sudip/email-sms_spam_detection.git
 ```
 ### Run project
 Create a virtual env (recommended) and install the requirements.
-``bash
+```bash
 pip -r requirements.txt
 ```
 Then run the project using streamlit
