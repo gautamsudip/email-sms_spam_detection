@@ -22,7 +22,18 @@ Assessed model performance using accuracy and precision metrics.
 Observed improvements by adjusting vectorization parameters and trying different algorithms like Random Forest.
 
 ## Clone repository
+```bash
 git clone https://github.com/ich-bin-sudip/email-sms_spam_detection.git
+```
+### Run project
+Create a virtual env (recommended) and install the requirements.
+```bash
+pip -r requirements.txt
+```
+Then run the project using streamlit
+```bash
+  streamlit run app.py
+```
 
 ## Model Deployment
 After training and evaluating the model, you can deploy it for real-time classification. Use the provided pickled files (vectorizer.pkl and model.pkl) to vectorize incoming text data and make predictions using the trained model. I have deploy the model on render using streamlit app . 
